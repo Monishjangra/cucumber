@@ -1,9 +1,10 @@
-Feature: to test login functionality
+Feature: To test the login functionality of shopping aaplication.
 
-Scenario: login ckeck
-Given user is on home page
-When tittle is home
-Then user click login button
-Then user enter email and password
-Then user click submit button
-Then user is navigated to home dashboard
+  Scenario: Test login functionality for valid username and password.
+    Given Setup browser driver and navigate to the home page.
+    When Verify the tittle is homepage.
+    Then Select login option.
+    Then Enter valid username and password.
+    Then Click on sign in button.
+    And Verify dashboard.
+    Then Close the browser.

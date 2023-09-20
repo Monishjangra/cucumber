@@ -9,10 +9,12 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/resources/features",
 		glue = {"stepDefination"},
+//		dryRun = false,
 		monochrome = true,
-		plugin = {"pretty","html:target/HtmlReports",
-		"pretty","json:target/report.json",
-		"pretty","junit:target/report.xml"})
+		plugin = {"pretty","html:target/HtmlReports.html",
+		"pretty","json:target/report.json"
+//		"pretty","junit:target/report.xml"
+		})
 public class TestRunner {
 
 }

@@ -1,0 +1,5 @@
+# Created at 2023-09-20T13:10:07.324
+Boot Manifest-JAR contains absolute paths in classpath 'F:\git Kraken\cucumber\cucumber_practice\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

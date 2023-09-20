@@ -1,42 +1,77 @@
 package stepDefination;
 
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginStepDef {
 
+	WebDriver driver;
 
+	@Given("Setup browser driver and navigate to the home page.")
+	public void setup_brower_driver_and_navigate_to_the_home_page() {
+		driver = new ChromeDriver();
+		driver.get("http://localhost:8080/home");
+		System.out.println("home Page");
 
-@Given("user is on home page")
-public void user_is_on_home_page() {
-	System.out.println("home Page");
+	}
+
+	@When("Verify the tittle is homepage.")
+	public void Verify_the_tittle_is_homepage() throws InterruptedException {
+		String tittle = driver.getTitle();
+		Assert.assertEquals("Home", tittle);
+		System.out.println("checking home Page");
+		Thread.sleep(1000);
+	}
+
+	@Then("Select login option.")
+	public void Select_login_option() throws InterruptedException {
+		WebElement button = driver.findElement(By.xpath("//button[@type='submit']"));
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", button);
+		System.out.println("login button");
+		Thread.sleep(1000);
+	}
+
+	@Then("Enter valid username and password.")
+	public void Enter_valid_username_and_password() throws InterruptedException {
+		driver.findElement(By.name("username")).sendKeys("monish@gmail.com");
+		driver.findElement(By.name("password")).sendKeys("user");
+		System.out.println("email and password");
+		Thread.sleep(1000);
+	}
+
+	@Then("Click on sign in button.")
+	public void Click_on_sign_in_button() throws InterruptedException {
+		WebElement button = driver.findElement(By.xpath("//button[@type='submit']"));
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", button);
+		System.out.println("Submit button");
+		Thread.sleep(1000);
+	}
+
+	@And("Verify dashboard.")
+	public void Verify_dashboard() throws InterruptedException {
+		String tittle = driver.getTitle();
+		Assert.assertEquals("View Items", tittle);
+		System.out.println("home dashboard");
+		Thread.sleep(1000);
+	}
 	
-}
-
-@When("tittle is home")
-public void tittle_is_home() {
-	System.out.println("checking home Page");
-}
-
-@Then("user click login button")
-public void user_click_login_button() {
-	System.out.println("login button");
-}
-
-@Then("user enter email and password")
-public void user_enter_email_and_password() {
-	System.out.println("email and password");
-}
-
-@Then("user click submit button")
-public void user_click_submit_button() {
-	System.out.println("Submit button");
-}
-
-@Then("user is navigated to home dashboard")
-public void user_is_navigated_to_home_dashboard() {
-	System.out.println("home dashboard");
-}
+	@Then("Close the browser.")
+	public void Close_the_browser() {
+		driver.close();
+		driver.quit();
+		System.out.println("Close the browser");
+	}
+	
 
 }
