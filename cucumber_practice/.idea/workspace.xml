@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="588dcd45-afc9-4578-bf11-75a8f989faf5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinations/loginStepDefination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunner/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/LoginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/LoginStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HtmlReports" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/cucumber_practice/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com/cucumber_practice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/org.example/cucumber_practice/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/org.example/cucumber_practice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stepDefinations/loginStepDefination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testRunner/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HtmlReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/HtmlReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/LoginStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/LoginStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefination/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefination/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/git Kraken/cucumber/cucumber_practice",
+    "last_opened_file_path": "F:/git Kraken/cucumber",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

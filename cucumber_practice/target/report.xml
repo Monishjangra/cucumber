@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.685" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To test the login functionality of shopping aaplication." name="Test login functionality for valid username and password." time="24.514">
+<system-out><![CDATA[
+Given Setup browser driver and navigate to the home page....................passed
+When Verify the tittle is homepage..........................................passed
+Then Select login option....................................................passed
+Then Enter valid "monish@gmail.com" and "user"..............................passed
+Then Click on sign in button................................................passed
+And Verify dashboard........................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
